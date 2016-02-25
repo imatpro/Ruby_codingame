@@ -1,3 +1,5 @@
 # Ruby_codingame
 
-Solution des jeux codingame en ruby
+Solution de certains jeux codingame en ruby
+
+niveau noob
