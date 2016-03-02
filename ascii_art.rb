@@ -19,7 +19,6 @@ tab.each do |x|
             row = gets.chomp
             puts row[num..num+3]
         end
-        
     else @h.times do
             row = gets.chomp
             puts row[104] + row[105] + row[106] +row[107]
