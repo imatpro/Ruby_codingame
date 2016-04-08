@@ -22,14 +22,14 @@ end
 end
 
 result = []
-for i in 0...files.length
-    if exten.has_key?(files[i].downcase)
-        result.push exten[files[i].downcase]
+
+files.each do |x|
+    if exten.has_key?(x.downcase)
+        result.push exten[x.downcase]
     else result.push "UNKNOWN"
     end
 end
 
-puts result
 # Write an action using puts
 # To debug: STDERR.puts "Debug messages..."
 
